@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 7px;
+    
+}
+
+body {
+    background: url(../img/background.jpg) #000; /*Si la imagen no carga, se aplica el fondo negro*/
+    background-size: cover; /*Para que la imagen se ajuste a la pantalla del usuario*/
+    color: #fff; /*Color de letra*/
+    font-size: 20px;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto; /*Para centrar el reloj*/
+    
+}
+
+.widget {
+    width: 40%;  
+    margin: auto; /*2em Es equivalente a margin: 32px*/
+    margin-top: 17%;
+    margin-right: 10%;
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha {
+    font-family: serif;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    /*margin-bottom: 5px;*/
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+
+.reloj {
+    font-family: serif;
+    width: 100%;
+    padding: 20px;
+    font-size: 4rem;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+}
+
+.reloj .caja-segundos {
+    display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+    font-size: 2rem;
+    display: block;
+}
+
+h5 {
+    text-align: right;
+    padding: 5px;
+    margin-right: 356px;
+    color: rgb(110, 2, 172);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}
